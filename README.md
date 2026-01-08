@@ -122,3 +122,4 @@ The project uses Tailwind CSS and React Responsive to ensure an optimal experien
 - Custom fonts are imported from Google Fonts
 <!-- Development commit 1 -->
 <!-- Development commit 2 -->
+<!-- Development commit 3 -->
