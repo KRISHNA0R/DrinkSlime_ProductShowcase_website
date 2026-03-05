@@ -4,7 +4,7 @@ Recreating a website frontend that has won an Awwwards Site of the Day, using GS
 
 ## 🎨 Description
 
-This project is a recreation of an Awwwards-awarded website (Site of the Day). It showcases smooth and modern animations with a clean and responsive user interface. The site features multiple dynamic sections including product benefits, a flavor gallery, and customer testimonials.
+This project is a clone of an Awwwards-awarded website (Site of the Day). It showcases smooth and modern animations with a clean and responsive user interface. The site features multiple dynamic sections including product benefits, a flavor gallery, and customer testimonials.
 
 ## 🚀 Features
 
