@@ -1,10 +1,10 @@
-# Spylt-awward-clone
+# drinkslime
 
 Recreating a website frontend that has won an Awwwards Site of the Day, using GSAP, ReactJS, and Tailwind CSS.
 
 ## � Live Demo
 
-Check out the live demo here: **[https://prince-elie.github.io/Spylt-awward-clone/](https://prince-elie.github.io/Spylt-awward-clone/)**
+Check out the live demo here: **[https://dev-krishnar.github.io/drinkslime/](https://dev-krishnar.github.io/drinkslime/)**
 
 ## �🎨 Description
 
@@ -38,8 +38,8 @@ This project is a clone of an Awwwards-awarded website (Site of the Day). It sho
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Prince-Elie/Spylt-awward-clone.git
-   cd Spylt-awward-clone
+   git clone https://github.com/dev-krishnar/drinkslime.git
+   cd drinkslime
    ```
 
 2. **Install dependencies**

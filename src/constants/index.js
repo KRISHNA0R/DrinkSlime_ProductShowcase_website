@@ -7,7 +7,7 @@ const flavorlists = [
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Stawberry Milk",
+    name: "Strawberry Milk",
     color: "red",
     rotation: "md:rotate-[8deg] rotate-0",
   },

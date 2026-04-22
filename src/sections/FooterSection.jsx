@@ -36,31 +36,55 @@ const FooterSection = () => {
         )}
 
         <div className="flex-center gap-5 relative z-10 md:mt-20 mt-5">
-          <div className="social-btn">
-            <img src={`${import.meta.env.BASE_URL}images/yt.svg`} alt="" />
+          <div 
+            className="social-btn"
+            onClick={() => window.open('https://linkedin.com/in/dev-krishnar', '_blank')}
+          >
+            <img src={`${import.meta.env.BASE_URL}images/yt.svg`} alt="linkedin" className="invert" />
           </div>
-          <div className="social-btn">
-            <img src={`${import.meta.env.BASE_URL}images/insta.svg`} alt="" />
+          <div 
+            className="social-btn"
+            onClick={() => window.open('https://instagram.com/dev.krishnar', '_blank')}
+          >
+            <img src={`${import.meta.env.BASE_URL}images/insta.svg`} alt="instagram" />
           </div>
-          <div className="social-btn">
-            <img src={`${import.meta.env.BASE_URL}images/tiktok.svg`} alt="" />
+          <div 
+            className="social-btn"
+            onClick={() => window.open('https://github.com/dev-krishnar', '_blank')}
+          >
+            <img src={`${import.meta.env.BASE_URL}images/tiktok.svg`} alt="github" />
           </div>
         </div>
 
         <div className="mt-40 md:px-10 px-5 flex gap-10 md:flex-row flex-col justify-between text-milk font-paragraph md:text-lg font-medium">
           <div className="flex items-center md:gap-16 gap-5">
             <div>
-              <p>SPYLT Flavors</p>
+              <p>drinkslime Flavors</p>
             </div>
             <div>
               <p>Chug Club</p>
               <p>Student Marketing</p>
               <p>Dairy Dealers</p>
             </div>
-            <div>
-              <p>Company</p>
-              <p>Contacts</p>
-              <p>Tasty Talk</p>
+            <div className="md:max-w-xs">
+              <p 
+                className="cursor-pointer hover:text-white transition-colors"
+                onClick={() => window.open('https://www.amazon.com/s?k=prime+drink', '_blank')}
+              >
+                Company
+              </p>
+              <p 
+                className="cursor-pointer hover:text-white transition-colors"
+                onClick={() => window.open('https://linkedin.com/in/dev-krishnar', '_blank')}
+              >
+                krishnar
+              </p>
+              <p 
+                className="cursor-pointer hover:text-white transition-colors"
+                onClick={() => window.open('https://www.amazon.com/s?k=prime+drink', '_blank')}
+              >
+                Tasty Talk
+              </p>
             </div>
           </div>
 
@@ -83,12 +107,12 @@ const FooterSection = () => {
           </div>
         </div>
 
-        <div className="copyright-box">
+        <div className="copyright-box mt-20">
           {/* The final row with copyright and legal links. */}
-          <p>Copyright © 2026 Spylt - All Rights Reserved</p>
+          <p>Copyright © 2026 drinkslime | Developed by dev.krishnar</p>
           <div className="flex items-center gap-7">
-            <p>Privacy Policy</p>
-            <p>Terms of Sеrvice</p>
+            <p className="cursor-pointer">Privacy Policy</p>
+            <p className="cursor-pointer">Terms of Sеrvice</p>
           </div>
         </div>
       </div>

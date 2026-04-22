@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar";
 import HeroSection from "./sections/HeroSection";
-import { ScrollTrigger } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import MessageSection from "./sections/MessageSection";
 import FlavorSection from "./sections/FlavorSection";
@@ -9,6 +9,7 @@ import BenefitSection from "./sections/BenefitSection";
 import TestimonialSection from "./sections/TestimonialSection";
 import FooterSection from "./sections/FooterSection";
 import { useEffect } from "react";
+import SmoothScroll from "./components/SmoothScroll";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,16 +25,18 @@ const App = () => {
   }, []);
 
   return (
-    <main>
-      <NavBar />
-      <HeroSection />
-      <MessageSection />
-      <FlavorSection />
-      <NutritionSection />
-      <BenefitSection />
-      <TestimonialSection />
-      <FooterSection />
-    </main>
+    <SmoothScroll>
+      <main>
+        <NavBar />
+        <HeroSection />
+        <MessageSection />
+        <FlavorSection />
+        <NutritionSection />
+        <BenefitSection />
+        <TestimonialSection />
+        <FooterSection />
+      </main>
+    </SmoothScroll>
   );
 };
 
