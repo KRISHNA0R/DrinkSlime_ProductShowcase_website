@@ -4,7 +4,7 @@ Recreating a website frontend that has won an Awwwards Site of the Day, using GS
 
 ## Live Demo
 
-Check out the live demo here: **[https://dev-krishnar.github.io/drinkslime/](https://dev-krishnar.github.io/drinkslime/)**
+Check out the live demo here: **[https://dev-krishnar.github.io/drinkslime/](https://drinkslimeproductshowasev2.vercel.app/)**
 
 ## Description
 
